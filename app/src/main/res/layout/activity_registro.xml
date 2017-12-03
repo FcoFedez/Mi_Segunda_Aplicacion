@@ -90,6 +90,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@android:color/holo_blue_dark"
+        android:onClick="clickVolver"
         android:text="Volver" />
 
     <Button
@@ -100,6 +101,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:background="@android:color/holo_blue_dark"
+        android:onClick="clickAceptar"
         android:text="Aceptar" />
 
 </RelativeLayout>
