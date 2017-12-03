@@ -25,4 +25,13 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,Noticias.class);
         startActivity(i);
     }
+
+    public void clickHistoria(View v){
+        Intent i = new Intent(this,Historia.class);
+        startActivity(i);
+    }
+    public void  clickRegistro(View v){
+        Intent i = new Intent(this,Registro.class);
+        startActivity(i);
+    }
 }

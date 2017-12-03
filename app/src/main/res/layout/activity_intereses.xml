@@ -23,6 +23,7 @@
                 android:layout_height="wrap_content" >
             </TabWidget>
 
+
             <ScrollView
                 android:id="@+id/scroll"
                 android:layout_width="match_parent"
@@ -38,6 +39,7 @@
 
 
                     <LinearLayout
+
                         android:id="@+id/tab1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -45,15 +47,19 @@
 
                         <TextView
                             android:id="@+id/textView1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Iglésia de la Encarnacion" />
+                            android:text="Iglésia de la Encarnacion"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
 
 
                         <ImageView
                             android:id="@+id/imageView3"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="295dp"
                             app:srcCompat="@drawable/iglesia" />
 
                         <EditText
@@ -64,6 +70,61 @@
                             android:ems="10"
 
                             android:text="@string/textoIglesia" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Museo"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="325dp"
+                            app:srcCompat="@drawable/museo" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="El Museo comarcal Velezano Miguel Guirao(Almería)dispone de una colección que está compuesta por varios miles de piezas que comprenden una sucesión de materiales, desde la Prehistoria.El museo presenta una amplia colección del patrimonio arqueológico de todos los pueblos de la comarca y de otros lugares cercanos como lo del Sureste y de Andalucía." />
+
+                        <Space
+                            style="@style/AppTheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Casco Monumental"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/casco" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Es un hermoso casco monumental que incluye varios edificios señoriales, un bonito Ayuntamiento y el monumental templo barroco de La Encarnación, con dimensiones de catedral. Con un poco de suerte, cuando visites el pueblo puede que coincidas con el bullicioso mercadillo que se celebra todos los sábados desde 1804 y que invade las calles del casco viejo con los colores de la huerta." />
+
 
                     </LinearLayout>
 
@@ -96,7 +157,7 @@
 
 
 
-            </ScrollView>
+           </ScrollView>
 
 
         </LinearLayout>

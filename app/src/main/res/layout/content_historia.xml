@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus410.mi_segunda_aplicacion.Historia"
+    tools:showIn="@layout/activity_historia"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        app:srcCompat="@drawable/escudo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/historia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='La presencia humana en este municipio data desde hace más de treinta mil años. Se han descubierto algunas hachas de piedra, generalmente de diorita y algunas puntas de flecha de pedernal.  Su emplazamiento actual se remonta a finales del S.XV y principios del XVI, cuando vencidos los árabes nativos, la nueva población de moriscos y cristianos se asientan sobre lo que hoy conocemos como barrio del "Fatín" (de las Puertas de Lorca a las de San Nicolás), de calles estrechas y tortuosas, rodeados de agua y vega. Posteriormente este núcleo se expande en torno a la Iglesia, el Ayuntamiento y el Pósito. Pero habría de ser en los S.XVIII y XIX, cuando tiene lugar el mayor desarrollo urbano, con vías largas, rectas y amplias y edificios suntuosos.'
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

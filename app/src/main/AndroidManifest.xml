@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Registro" />
-        <activity android:name=".Noticias" />
-        <activity android:name=".Intereses"></activity>
+        <activity android:name=".Intereses" />
+        <activity
+            android:name=".Historia"
+            android:label="@string/title_activity_historia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Noticias"></activity>
     </application>
 
 </manifest>

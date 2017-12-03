@@ -26,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="clickRegistro"
         android:padding="25dp"
         android:text="@string/r" />
 
@@ -34,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="clickNoticias"
+        android:onClick="clickHistoria"
         android:padding="25dp"
         android:text="Noticias" />
 
@@ -43,6 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="clickHistoria"
         android:padding="25dp"
         android:text="História" />
 
