@@ -138,7 +138,66 @@
                             android:id="@+id/textView2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/enviadas" />
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Fiesta de San José "
+                            android:textColor="@android:color/holo_orange_dark"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            app:srcCompat="@drawable/sanjose" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:text="19 de Marzo"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:text="Ayuntamiento, emitir desde allí un bando y multar indiscriminadamente a los vecinos, los cuales irán directamente a la cárcel, previo pago de sanción. Allí los “presos” convivirán con el resto de visitantes, eso sí disfrutando de un buen vino y aperitivos." />
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:text="Virgen del Carmen"
+                            android:textColor="@android:color/holo_orange_dark"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            app:srcCompat="@drawable/virgen" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:text="Fecha: 16 de Julio"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:text="Santa María del Monte Carmelo, referida comúnmente como Virgen del Carmen o Nuestra Señora del Carmen, es una de las diversas advocaciones de la Virgen María. Su denominación procede del llamado Monte Carmelo, en Israel, en la ciudad de Haifa, un nombre que deriva de la palabra Karmel " />
                     </LinearLayout>
 
                     <LinearLayout
