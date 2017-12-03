@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.asus410.mi_segunda_aplicacion.Noticias"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:layout_gravity="center">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,13 +17,126 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="PRESENTACIÓN DE LA QUINTA EDICIÓN DE LOS RELATOS VELEZANOS."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/relatos" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="28/11/2017"
+                android:textColor="?attr/actionMenuTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="El próximo sábado, 2 de diciembre, a las 19:30horas en el Museo Miguel Guirao."
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="APERTURA DE LA CALLE CABALLERO. P.F.E.A. 2017-2018."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/calle" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="28/11/2017"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="El pasado lunes, 27 de noviembre, el Alcalde, Miguel Martínez-Carlón Manchón, y el Concejal de Urbanismo, Obras Públicas y Agua, Juan José Parra García, junto con los trabajadores y vecinos procedieron a la apertura de este vial."
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="CINE DE OTOÑO: “ANIMALES FANTÁSTICOS Y DONDE ENCONTRARLOS”."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/cine" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="23/11/2017"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Este domingo, 26 de noviembre, a las 18 horas en el Cine-Teatro Óvalo."
+                android:textSize="18sp" />
+
         </LinearLayout>
 
     </ScrollView>
