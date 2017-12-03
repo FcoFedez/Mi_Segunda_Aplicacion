@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.asus410.mi_segunda_aplicacion.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="Velez Rubio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:text="@string/r" />
+
+    <Button
+        android:id="@+id/btnNoticias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="clickNoticias"
+        android:padding="25dp"
+        android:text="Noticias" />
+
+    <Button
+        android:id="@+id/btnHistoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:text="História" />
+
+    <Button
+        android:id="@+id/btnIntereses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="clickIntereses"
+        android:padding="25dp"
+        android:text="Intereses Turisticos" />
+
+
+</LinearLayout>

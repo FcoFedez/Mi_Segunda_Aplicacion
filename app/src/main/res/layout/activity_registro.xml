@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|center"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context="com.example.asus410.mi_segunda_aplicacion.Registro">
+
+
+    <TextView
+        android:id="@+id/tv_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Registro"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ETnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_registro"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_green_dark" />
+
+    <EditText
+        android:id="@+id/ETtelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ETnombre"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/ETnombre"
+        android:layout_below="@+id/ETnombre"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_green_dark" />
+
+    <EditText
+        android:id="@+id/ETdireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ETtelefono"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/ETtelefono"
+        android:layout_below="@+id/ETtelefono"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Direccion"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_green_dark" />
+
+    <EditText
+        android:id="@+id/ETedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ETdireccion"
+        android:layout_alignLeft="@+id/ETdireccion"
+        android:layout_alignRight="@+id/ETdireccion"
+        android:layout_alignStart="@+id/ETdireccion"
+        android:layout_below="@+id/ETdireccion"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/Bvolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Volver" />
+
+    <Button
+        android:id="@+id/Baceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Aceptar" />
+
+</RelativeLayout>
