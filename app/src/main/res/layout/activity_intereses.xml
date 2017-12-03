@@ -145,13 +145,47 @@
                         android:id="@+id/tab3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp">
 
                         <TextView
                             android:id="@+id/textView3"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/perdidas" />
+                            android:gravity="center"
+                            android:layout_marginBottom="16dp"
+                            android:text="Sendero Castellon los Velez"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            app:srcCompat="@drawable/sendero" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:text="Dificultad técnica:    Fácil\nTiempo:  5 horas 8 minutos  \nCoordenadas  1409" />
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            app:srcCompat="@drawable/datos" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Es un sendero de unos 13.5 kilómetros de media dificultad. El sendero comienza y termina por la rotunda con reloj en Vélez Rubio – junto el restaurante Zurich.   Desde la rotonda tomáis la calle de nuestro Padre Jesús que está situada haciendo esquina con ‘Cortinas Carmen’.   La primera parte del sendero sigue por la rambla y podéis ver la Fuente del Perro y la Fuente del Gato. Creo que el agua de Fuente Perro no es potable, pero el agua de la Fuente Gato es muy rica en hierro y Los Velezanos la recomiendan para personas débiles que sufren de anemia.   El sendero hasta la cima del Castellón (Paraje del Ginte) es muy inclinado pero vale la pena por las vistas imponentes. Hay ruinas de un antiguo castillo Árabe en la cima.   Cuando regreséis a Vélez Rubio podéis dar un paseo por el pueblo, visitando el Museo, La Iglesia de la Encarnación y el Convento. " />
                     </LinearLayout>
                 </FrameLayout>
 
