@@ -22,7 +22,9 @@
             android:name=".Historia"
             android:label="@string/title_activity_historia"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Noticias"></activity>
+        <activity android:name=".Noticias" />
+        <activity android:name=".Acercade" />
+        <activity android:name=".Ayuda"></activity>
     </application>
 
 </manifest>

@@ -1,11 +1,18 @@
 <resources>
-    <string name="app_name">Mi_Segunda_Aplicacion</string>
-    <string name="enviadas">Llamadas enviadas</string>
-    <string name="recibidas">llamadas recividas</string>
-    <string name="perdidas">llamadas perdidas</string>
+    <string name="app_name">Velez Rubio</string>
+    <string name="Fiestas">Fiestas</string>
+    <string name="Monumentos">Monumentos</string>
+    <string name="Senderos">Senderos</string>
     <string name="textoIglesia">La iglesia de Nuestra Señora de la Encarnación
         la encontramos ubicada en el centro del pueblo, merece la pasar y dar un paseo
         mirando los altos techos.</string>
-    <string name="r">Registro</string>
+    <string name="registro">Registro</string>
+    <string name="noticias">Noticias</string>
+    <string name="historia">Historia</string>
+    <string name="intereses">Intereses Turisticos</string>
     <string name="title_activity_historia">Historia</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="edad">edad</string>
 </resources>

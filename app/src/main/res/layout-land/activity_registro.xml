@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|center"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.asus410.mi_segunda_aplicacion.Registro">
+
+
+    <TextView
+        android:id="@+id/tv_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/registro"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TableRow android:gravity="center">
+
+            <EditText
+                android:id="@+id/ETnombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/holo_green_dark" />
+
+            <EditText
+                android:id="@+id/ETtelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="@string/telefono"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/holo_green_dark" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <EditText
+                android:id="@+id/ETdireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="@string/direccion"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/holo_green_dark" />
+
+            <EditText
+                android:id="@+id/ETedad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="@string/edad"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/holo_green_dark" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Bvolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/holo_blue_dark"
+                android:onClick="clickVolver"
+                android:text="Volver" />
+
+            <Button
+                android:id="@+id/Baceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/holo_blue_dark"
+                android:onClick="clickAceptar"
+                android:text="Aceptar" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

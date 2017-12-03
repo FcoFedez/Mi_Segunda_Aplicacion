@@ -20,40 +20,69 @@
         android:text="Velez Rubio"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-
-    <Button
-        android:id="@+id/btnRegistro"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="25dp"
-        android:text="@string/r" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnNoticias"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="clickNoticias"
-        android:padding="25dp"
-        android:text="Noticias" />
+        <TableRow android:gravity="center">
 
-    <Button
-        android:id="@+id/btnHistoria"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="25dp"
-        android:text="História" />
+            <Button
+                android:id="@+id/btnRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:width="180dp"
+                android:background="@android:color/holo_orange_light"
+                android:onClick="clickRegistro"
+                android:padding="32dp"
+                android:text="@string/registro" />
 
-    <Button
-        android:id="@+id/btnIntereses"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="clickIntereses"
-        android:padding="25dp"
-        android:text="Intereses Turisticos" />
+            <Button
+                android:id="@+id/btnNoticias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:width="180dp"
+                android:background="@android:color/holo_green_light"
+                android:onClick="clickNoticias"
+                android:padding="32dp"
+                android:text="@string/noticias" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/btnHistoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:width="180dp"
+                android:background="@android:color/holo_red_dark"
+                android:onClick="clickHistoria"
+                android:padding="32dp"
+                android:text="@string/historia" />
+
+            <Button
+                android:id="@+id/btnIntereses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="180dp"
+                android:background="@android:color/holo_blue_bright"
+                android:onClick="clickIntereses"
+                android:padding="25dp"
+                android:text="Intereses\nTuristicos" />
+
+        </TableRow>
+
+    </TableLayout>
 
 
 </LinearLayout>

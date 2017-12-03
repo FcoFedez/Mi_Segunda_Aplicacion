@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Mi_Segunda_Aplicacion</string>
-    <string name="enviadas">Llamadas enviadas</string>
-    <string name="recibidas">llamadas recividas</string>
-    <string name="perdidas">llamadas perdidas</string>
+    <string name="Fiestas">Parties</string>
+    <string name="Monumentos">Monuments</string>
+    <string name="Senderos">Walking trails</string>
     <string name="textoIglesia">La iglesia de Nuestra Señora de la Encarnación
         la encontramos ubicada en el centro del pueblo, merece la pasar y dar un paseo
         mirando los altos techos.</string>
-    <string name="r">Registro</string>
+    <string name="registro">Registry</string>
+    <string name="noticias">News</string>
+    <string name="historia">History</string>
+    <string name="intereses">Interests</string>
     <string name="title_activity_historia">Historia</string>
+    <string name="nombre">Name</string>
+    <string name="direccion">Adress</string>
+    <string name="telefono">Phone</string>
+    <string name="edad">Age</string>
 </resources>

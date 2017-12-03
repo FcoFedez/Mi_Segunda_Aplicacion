@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus410.mi_segunda_aplicacion.Ayuda">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='La aplicacion consta de varias activitis relacionadas con el pueblo Almeriense "Velez Rubio". Comenzamon en la actividad principal donde nos muestra 4 botones los cuales esta inabilitados todos excepto el boton registro. Es necesario realizar un registro para habilitar los otros botones. Si pulsa cualquier boton desabilitado le saldra un mensaje en forma de tostada informandole de que debe registrarse. En esta actividad tambien dispone de un menu con dos opciones el menu ayuda y el menu acerca de. Si giramos la pantalla muestra los botones en otra disposicion pero alineados. El boton de noticias nos llevara a una ventana con diversas noticias del pueblo. El boton Intereses turisticos nos lleva a una ventana con tres tab, en ellas encontramos monumentos, fiestas y senderos. Por ultimo el botón historia nos lleva a una ventana con el escudo del pueblo y un texto sobre la historia del mismo.'
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="clic"
+                android:text="Volver" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

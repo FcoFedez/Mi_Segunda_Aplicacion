@@ -28,7 +28,7 @@
         android:layout_gravity="center"
         android:onClick="clickRegistro"
         android:padding="25dp"
-        android:text="@string/r" />
+        android:text="@string/registro" />
 
     <Button
         android:id="@+id/btnNoticias"
@@ -37,7 +37,7 @@
         android:layout_gravity="center"
         android:onClick="clickNoticias"
         android:padding="25dp"
-        android:text="Noticias" />
+        android:text="@string/noticias" />
 
     <Button
         android:id="@+id/btnHistoria"
@@ -46,7 +46,7 @@
         android:layout_gravity="center"
         android:onClick="clickHistoria"
         android:padding="25dp"
-        android:text="História" />
+        android:text="@string/historia" />
 
     <Button
         android:id="@+id/btnIntereses"
@@ -55,7 +55,7 @@
         android:layout_gravity="center"
         android:onClick="clickIntereses"
         android:padding="25dp"
-        android:text="Intereses Turisticos" />
+        android:text="@string/intereses" />
 
 
 </LinearLayout>
